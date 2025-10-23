@@ -1,10 +1,7 @@
-/* IMPORTS */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
-/* VARIABLES */
 :root {
-  /* COLORS */
   --neutral-0: #fff;
   --neutral-100: #f2f3f6;
   --neutral-600: #1d1e20;
@@ -17,11 +14,9 @@
   --success-500: #00b090;
   --meteorite--200: #cbc8ff;
 
-  /* FONTS */
   --ff-DM-Sans: "DM Sans", sans-serif;
 }
 
-/* RESETS */
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +38,6 @@ li {
 a {
   text-decoration: none;
 }
-/* HEADER */
 
 .header {
   position: sticky;
@@ -113,8 +107,6 @@ a {
   font-size: 1rem;
   font-weight: 700;
 }
-
-/* HERO */
 
 .hero {
   width: 100%;
@@ -247,8 +239,6 @@ a {
 .hero__image img {
   width: 100%;
 }
-
-/* MAILS SECTION */
 
 .mails {
   width: 100%;
@@ -384,8 +374,6 @@ a {
   height: 110%;
 }
 
-/* FOOTER */
-
 .footer {
   width: 100%;
   padding: 1rem 1rem 0;
@@ -499,8 +487,6 @@ hr {
   font-family: var(--ff-DM-Sans);
   color: var(--neutral-600);
 }
-
-/* BREAKPOINTS */
 
 @media screen and (min-width: 768px) {
   .hero {

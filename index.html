@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,15 +7,12 @@
     <title></title>
   </head>
   <body>
-    <!-- Header -->
     <header class="header">
       <div class="header__container">
-        <!-- Logo -->
         <a class="header__logo" href="/">
           <img src="./images/hostinger-logo.svg" alt="Logo de Hostinger" />
         </a>
 
-        <!-- Navigation -->
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -38,10 +35,13 @@
             </li>
           </ul>
 
-          <!-- Header Btns -->
           <div class="header__btns">
             <button class="btn btn--language">
-              <img class="btn__icon" src="./images/arg-flag.png" alt="Idioma español - Argentina" />
+              <img
+                class="btn__icon"
+                src="./images/arg-flag.png"
+                alt="Idioma español - Argentina"
+              />
               <span class="btn__text">Español</span>
             </button>
             <a class="btn btn--secondary" href="">Mi cuenta</a>
@@ -49,185 +49,178 @@
         </nav>
       </div>
 
-      <!-- Mobile Menu Icon -->
       <button class="header__menu">
         <i class="bi bi-list"></i>
       </button>
     </header>
-
-    <!-- Main Content -->
     <main>
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__content">
+            <div class="hero__header">
+              <h1 class="hero__title">
+                Seguridad. Rapidez. Lo que tu web se merece
+              </h1>
+              <p class="hero__subtitle">
+                Hasta <span>72%</span> de descuento en hosting web
+              </p>
+            </div>
+            <ul class="hero__features">
+              <li class="hero__feature">
+                <span class="hero__feature-icon">
+                  <i class="bi bi-check2"></i>
+                </span>
+                <span class="hero__feature-text">
+                  Dominio gratis y migración web gratis
+                </span>
+                <i class="bi bi-question-circle"></i>
+              </li>
+              <li class="hero__feature">
+                <span class="hero__feature-icon">
+                  <i class="bi bi-check2"></i>
+                </span>
+                <span class="hero__feature-text">
+                  Usá WordPress o cualquier otro CMS
+                </span>
+                <i class="bi bi-question-circle"></i>
+              </li>
+              <li class="hero__feature">
+                <span class="hero__feature-icon">
+                  <i class="bi bi-check2"></i>
+                </span>
+                <span class="hero__feature-text">
+                  Hosting web totalmente administrado
+                </span>
+                <i class="bi bi-question-circle"></i>
+              </li>
+              <li class="hero__feature">
+                <span class="hero__feature-icon">
+                  <i class="bi bi-check2"></i>
+                </span>
+                <span class="hero__feature-text">
+                  Atención al cliente 24/7
+                </span>
+              </li>
+            </ul>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero__container">
-        
-        <!-- Hero Header -->
-        <div class="hero__content">
-          <div class="hero__header">
-            <h1 class="hero__title">
-              Seguridad. Rapidez. Lo que tu web se merece
-            </h1>
-            <p class="hero__subtitle">
-              Hasta <span>72%</span> de descuento en hosting web
+            <a class="btn btn--primary" href="/"> Empezar ya </a>
+
+            <p class="hero__guarantee">
+              <i class="bi bi-shield-check"></i>
+              Tenés 30 días de garantía de devolución
             </p>
           </div>
 
-          <!-- Features List -->
-          <ul class="hero__features">
-            <li class="hero__feature">
-              <span class="hero__feature-icon">
-                <i class="bi bi-check2"></i>
-              </span>
-              <span class="hero__feature-text">
-                Dominio gratis y migración web gratis
-              </span>
-                <i class="bi bi-question-circle"></i>
-            </li>
-
-            <li class="hero__feature">
-              <span class="hero__feature-icon">
-                <i class="bi bi-check2"></i>
-              </span>
-              <span class="hero__feature-text">
-                Usá WordPress o cualquier otro CMS
-              </span>
-                <i class="bi bi-question-circle"></i>
-            </li>
-
-            <li class="hero__feature">
-              <span class="hero__feature-icon">
-                <i class="bi bi-check2"></i>
-              </span>
-              <span class="hero__feature-text">
-                Hosting web totalmente administrado
-              </span>
-                <i class="bi bi-question-circle"></i>
-            </li>
-
-            <li class="hero__feature">
-              <span class="hero__feature-icon">
-                <i class="bi bi-check2"></i>
-              </span>
-              <span class="hero__feature-text">
-                Atención al cliente 24/7
-              </span>
-            </li>
-          </ul>
-
-          <!-- CTA Button -->
-          <a class="btn btn--primary" href="/">
-            Empezar ya
-          </a>
-
-          <!-- Guarantee -->
-          <p class="hero__guarantee">
-            <i class="bi bi-shield-check"></i>
-            Tenés 30 días de garantía de devolución
-          </p>
+          <div class="hero__image">
+            <img
+              src="./images/hero-img.webp"
+              alt="Panel de control de Hostinger mostrando estadísticas y opciones de hosting"
+            />
+          </div>
         </div>
-
-        <!-- Hero Image -->
-        <div class="hero__image">
-          <img 
-            src="./images/hero-img.webp" 
-            alt="Panel de control de Hostinger mostrando estadísticas y opciones de hosting">
-        </div>
-      </div>
-    </section>
-
-    <!-- Mails Section -->
-    <section class="mails">
-      <div class="mails__header">
-        <span class="pill pill--primary">Email inteligente</span>
-        <h2 class="mails__title">Enviá mails a tu audiencia con confianza</h2>
-      </div>
-      <section class="mails__cards">
-        <article class="cards__item">
-          <div class="card__content">
-            <span class="pill pill--secondary">Business</span>
-            <h3 class="card__title">Construí confianza con un email profesional</h3>
-            <p class="card__description">Potenciá tu marca, protegé tu bandeja de entrada y hacé crecer tu proyecto con herramientas increíbles que te dan control total.</p>
-            <ul class="card__features">
-              <li class="card__feature">
-                <span class="card__feature-icon">
-                  <i class="bi bi-check2"></i>
-                </span>
-                <span class="card__feature-text">
-                  Construí confianza con un email profesional
-                </span>
-              </li>
-              <li class="card__feature">
-                <span class="card__feature-icon">
-                  <i class="bi bi-check2"></i>
-                </span>
-                <span class="card__feature-text">
-                  Acceso al mail en todos los dispositivos y apps, sin complicaciones
-                </span>
-              </li>
-              <li class="card__feature">
-                <span class="card__feature-icon">
-                  <i class="bi bi-check2"></i>
-                </span>
-                <span class="card__feature-text">
-                 Privacidad y seguridad protegidas, y siempre online
-                </span>
-              </li>
-            </ul>
-            <div class="card__link">
-              <a href="#">Más info</a>
-            </div>
-          </div>
-          <div class="card__image">
-            <img src="./images/email-profesional.webp" alt="">
-          </div>
-        </article>
-        <article class="cards__item">
-          <div class="card__content">
-            <span class="pill pill--secondary">Marketing</span>
-            <h3 class="card__title">Hacé despegar tu negocio con email marketing con IA</h3>
-            <p class="card__description">Con Reach podés programar mails, automatizar secuencias para ahorrar tiempo y alinear siempre todo con tu marca.</p>
-            <ul class="card__features">
-              <li class="card__feature">
-                <span class="card__feature-icon">
-                  <i class="bi bi-check2"></i>
-                </span>
-                <span class="card__feature-text">
-                  Diseñá y escribí mails con IA
-                </span>
-              </li>
-              <li class="card__feature">
-                <span class="card__feature-icon">
-                  <i class="bi bi-check2"></i>
-                </span>
-                <span class="card__feature-text">
-                  Tu logo y colores aplicados automáticamente
-                </span>
-              </li>
-              <li class="card__feature">
-                <span class="card__feature-icon">
-                  <i class="bi bi-check2"></i>
-                </span>
-                <span class="card__feature-text">
-                 Sin necesidad de programar
-                </span>
-              </li>
-            </ul>
-            <div class="card__link">
-              <a href="#">Más info</a>
-            </div>
-          </div>
-          <div id="ia" class="card__image">
-            <img  src="./images/marketing-con-ia.webp" alt="">
-          </div>
-        </article>
       </section>
-    </section>
-    
-  </main>
 
-    <!-- Footer -->
-     <footer class="footer">
+      <section class="mails">
+        <div class="mails__header">
+          <span class="pill pill--primary">Email inteligente</span>
+          <h2 class="mails__title">Enviá mails a tu audiencia con confianza</h2>
+        </div>
+        <section class="mails__cards">
+          <article class="cards__item">
+            <div class="card__content">
+              <span class="pill pill--secondary">Business</span>
+              <h3 class="card__title">
+                Construí confianza con un email profesional
+              </h3>
+              <p class="card__description">
+                Potenciá tu marca, protegé tu bandeja de entrada y hacé crecer
+                tu proyecto con herramientas increíbles que te dan control
+                total.
+              </p>
+              <ul class="card__features">
+                <li class="card__feature">
+                  <span class="card__feature-icon">
+                    <i class="bi bi-check2"></i>
+                  </span>
+                  <span class="card__feature-text">
+                    Construí confianza con un email profesional
+                  </span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">
+                    <i class="bi bi-check2"></i>
+                  </span>
+                  <span class="card__feature-text">
+                    Acceso al mail en todos los dispositivos y apps, sin
+                    complicaciones
+                  </span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">
+                    <i class="bi bi-check2"></i>
+                  </span>
+                  <span class="card__feature-text">
+                    Privacidad y seguridad protegidas, y siempre online
+                  </span>
+                </li>
+              </ul>
+              <div class="card__link">
+                <a href="#">Más info</a>
+              </div>
+            </div>
+            <div class="card__image">
+              <img src="./images/email-profesional.webp" alt="" />
+            </div>
+          </article>
+          <article class="cards__item">
+            <div class="card__content">
+              <span class="pill pill--secondary">Marketing</span>
+              <h3 class="card__title">
+                Hacé despegar tu negocio con email marketing con IA
+              </h3>
+              <p class="card__description">
+                Con Reach podés programar mails, automatizar secuencias para
+                ahorrar tiempo y alinear siempre todo con tu marca.
+              </p>
+              <ul class="card__features">
+                <li class="card__feature">
+                  <span class="card__feature-icon">
+                    <i class="bi bi-check2"></i>
+                  </span>
+                  <span class="card__feature-text">
+                    Diseñá y escribí mails con IA
+                  </span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">
+                    <i class="bi bi-check2"></i>
+                  </span>
+                  <span class="card__feature-text">
+                    Tu logo y colores aplicados automáticamente
+                  </span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">
+                    <i class="bi bi-check2"></i>
+                  </span>
+                  <span class="card__feature-text">
+                    Sin necesidad de programar
+                  </span>
+                </li>
+              </ul>
+              <div class="card__link">
+                <a href="#">Más info</a>
+              </div>
+            </div>
+            <div id="ia" class="card__image">
+              <img src="./images/marketing-con-ia.webp" alt="" />
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
       <div class="footer__content footer__content--top">
         <div class="footer__social">
           <a href="" class="social__item"><i class="bi bi-linkedin"></i></a>
@@ -237,7 +230,7 @@
           <a href="" class="social__item"><i class="bi bi-youtube"></i></a>
         </div>
         <a href="" class="footer__logo">
-          <img src="./images/hostinger-logo.svg" alt="">
+          <img src="./images/hostinger-logo.svg" alt="" />
         </a>
       </div>
       <div class="footer__content footer__content--bottom">
@@ -248,35 +241,37 @@
         </div>
         <div class="footer__payment">
           <div class="payment__image">
-            <img src="./images/visa-card.png" alt="">
+            <img src="./images/visa-card.png" alt="" />
           </div>
           <div class="payment__image">
-            <img src="./images/mastercard-logo.png" alt="">
+            <img src="./images/mastercard-logo.png" alt="" />
           </div>
           <div class="payment__image">
-            <img src="./images/amex-logo.png" alt="">
+            <img src="./images/amex-logo.png" alt="" />
           </div>
           <div class="payment__image">
-            <img src="./images/dinersClub-logo.png" alt="">
+            <img src="./images/dinersClub-logo.png" alt="" />
           </div>
           <div class="payment__image">
-            <img src="./images/tarjetaNaranja-logo.png" alt="">
+            <img src="./images/tarjetaNaranja-logo.png" alt="" />
           </div>
           <div class="payment__image">
-            <img src="./images/cordial-logo.png" alt="">
+            <img src="./images/cordial-logo.png" alt="" />
           </div>
           <div class="payment__image">
-            <img src="./images/cordobesa-logo.png" alt="">
+            <img src="./images/cordobesa-logo.png" alt="" />
           </div>
           <a class="payment__link" href="">y más</a>
         </div>
       </div>
-      <hr>
+      <hr />
       <div class="footer__copyright">
-        <p>© 2004-2025 Hostinger – Subí tu proyecto a internet, hacelo crecer y superá tus metas gracias al poder de la inteligencia artificial.</p>
-        <p>Los precios se muestran sin IVA </p>
+        <p>
+          © 2004-2025 Hostinger – Subí tu proyecto a internet, hacelo crecer y
+          superá tus metas gracias al poder de la inteligencia artificial.
+        </p>
+        <p>Los precios se muestran sin IVA</p>
       </div>
-     </footer>
-  </body>
+    </footer>
   </body>
 </html>
